@@ -37,7 +37,7 @@ const AuthCallback: React.FC = () => {
           }
 
           // Redirect to app - use exact token format without modification
-          window.location.href = `http://localhost:8081/auth/callback?token=${encodeURIComponent(
+          window.location.href = `https://www.app.usetick.com/auth/callback?token=${encodeURIComponent(
             token
           )}`;
         } catch (error) {
